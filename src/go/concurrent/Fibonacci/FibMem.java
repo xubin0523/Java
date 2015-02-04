@@ -1,4 +1,4 @@
-package go.concurrent.Fibnacci;
+package go.concurrent.Fibonacci;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
