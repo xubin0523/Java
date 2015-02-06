@@ -17,6 +17,9 @@ public class LiftOff implements Runnable {
     }
     @Override
     public void run() {
-        while (countDown-- > 0)
+        while (countDown-- > 0) {
+            System.out.println(status());
+            Thread.yield();
+        }
     }
 }
